@@ -23,10 +23,7 @@
     box-sizing: border-box;
     letter-spacing: 5px;
     word-spacing: 0px;
-    word-wrap: break-word; /* PARA QUEBRAR A PALAVRA DO TEXTO PARA MANTER NO ESPAÇO DO ELEMENTO */
-}
-html {
-    height: 100%;
+    word-wrap: break-word; 
 }
 body {
     display: flex;
@@ -34,9 +31,11 @@ body {
     align-items: center;
     justify-content: space-between;
 
-    width: 100vw;
+    width: 98vw;
+    height: 97vh;
     margin: 0px;
    
+    font-size: 14px;
     background-image: url(/assets/imagens/index_imagens/clean.png);
     background-repeat: repeat;
     background-size: 100%;
@@ -48,15 +47,26 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 
     width: 1202;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding: 20px;
 
     color: var(--colorgreen);
 }
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 #oNando {
     font-family: 'glith';
-    font-size: 10em;
+    font-size: 14em;
     text-shadow: 2px 2px 5px rgba(245, 240, 240, 0.979);
 }
 /* MAIN */
@@ -65,8 +75,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 1;
 
-    width: 1202px;
+    width: 90vw;
+    height: auto;
+    margin: 10px;
 }
 #main_div {
     display: flex;
@@ -75,15 +88,16 @@ main {
     align-items: center;
 
     margin: auto;
-    height: 60vh;
-
+    padding: 20px;
+    width: 70vw;
+    height: auto; 
+    
     color: var(--colorblue);
     text-shadow: 1px 1px 0px rgba(143, 231, 105, 0.534);
-    font-size: 1.2em;
+    font-size: 2em;
 
     border-radius: 50px;
-    width: 50%;
-    background-color: rgba(252, 11, 200, 0.075);
+    background-color: rgba(0, 0, 0, 0.192);
     box-shadow: 2px 2px 2px var(--boxshadow);    
 }
 .anima {
@@ -93,11 +107,13 @@ main {
     align-items: center;
     align-items: flex-end;
 
-    margin-top: 5%;
-    margin-bottom: 2%;
-    height: 5%;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: auto;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     overflow: hidden;
 }
@@ -274,8 +290,14 @@ main {
     85% {height: 100%; background-color: #614b0300}
 }
 main div section {
-    margin: auto;
-    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5px;
+    width: 80%;
+    min-height: 50px;
+    max-height: 150px;
 }
 .ancora {
     text-decoration: none;
@@ -289,9 +311,11 @@ main div section {
 footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    flex: 1;
 
+    margin-top: 10px;
     color: var(--colorgreen);
 }
 footer address {
@@ -301,6 +325,7 @@ footer address {
 
 }
 footer .a_onando{
+    padding: 20px;
     text-decoration: none;
     color: var(--colorpinkpadrao);
 }
