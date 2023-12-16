@@ -35,49 +35,27 @@ att: 09/08/2023
         letter-spacing: 3px;
     }
     /* CABEÇALHO */
-    header {
-        color: var(--colorgreen);
-    }
-    header div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     #oNando {
         font-size: 4em;
-    }
-    header h2 {
-        margin-top: 25px;
-        font-size: 1em;
     }
     /* MAIN */
     main {
         width: 250px;
     }
     #main_div {
-        width: 230px;
-        margin: auto;
+        padding: 30px;
+        width: 250px;
         font-size: 1em; 
         background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 10%;
-    }
-    main div section h2 {
-        padding: 5px;
-    }
-    main div section h3 {
-        padding: 0px;
+        border-radius: 120%;
     }
     .anima {
         display: none;
     }
     /* FOOTER */
     footer {
-        font-size: .6em;
+        font-size: .9em;
         letter-spacing: 0px;
-    }
-    footer address {
-        margin-top: 20px;
     }
 }
 /* Mobile devices – 320px — 480px (dispositivos móveis) - DIMENSIONS: IPHONE 12 390-844 */
@@ -88,47 +66,31 @@ att: 09/08/2023
     /* CABEÇALHO */
     header {
         color: var(--colorgreen);
-    }
-    header div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        font-size: 1em;
     }
     #oNando {
-        font-size: 4em;
+        font-size: 5em;
     }
-    header h2 {
-        margin-top: 25px;
-        font-size: 1em;
+    header div h2 {
+        margin-top: 20px;
+        font-size: .9em;
     }
     /* MAIN */
     main {
-        width: 100%;
+        width: 90vw;
+        font-size: 1.3em;
     }
     #main_div {
         width: 90%;
-        margin: auto;
-        background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 10%;
+        border-radius: 120%;
         font-size: 1em;
-    }
-    main div section h2 {
-        padding: 5px;
-    }
-    main div section h3 {
-        padding: 0px;
     }
     .anima {
         display: none;
     }
     /* FOOTER */
     footer {
-        font-size: .6em;
-        letter-spacing: 0px;
-    }
-    footer address {
-        margin-top: 20px;
+        font-size: .8em;
     }
 }
 /* iPads, Tablets – 480px — 765px (tablets) - DIMENSIONS: SURFACE DUO 540-720*/
@@ -137,40 +99,18 @@ att: 09/08/2023
         letter-spacing: 3px;
     }
     /* CABEÇALHO */
-    header {
-        color: var(--colorgreen);
-    }
-    header div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     #oNando {
-        font-size: 6em;
-    }
-    header h2 {
-        margin-top: 25px;
-        font-size: 1.5em;
+        font-size: 7em;
     }
     /* MAIN */
     main {
         width: 100%;
+        line-height: 50px;
     }
     #main_div {
-        width: 90%;
-        margin: auto;
-        background-color: rgba(1, 10, 17, 0.137);
+        width: 70%;
         border-radius: 10%;
-        font-size: 1.4em;
-    }
-    main div section h2 {
-        padding: 5px;
-        font-size: 1.5em;
-    }
-    main div section h3 {
-        padding: 0px;
-        font-size: 1.1em;
+        font-size: 2em;
     }
     .anima {
         display: none;
@@ -178,10 +118,7 @@ att: 09/08/2023
     /* FOOTER */
     footer {
         font-size: .8em;
-        letter-spacing: 0px;
-    }
-    footer address {
-        margin-top: 20px;
+        letter-spacing: 3px;
     }
 } 
 /* Small screens, laptops – 765px — 1024px (tela pequena) - DIMENSIONS: IPAD MINI 768-1024*/
@@ -190,51 +127,18 @@ att: 09/08/2023
         letter-spacing: 3px;
     }
     /* CABEÇALHO */
-    header {
-        height: 30vh;
-        color: var(--colorgreen);
-    }
-    header div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     #oNando {
-        font-size: 10em;
-    }
-    header h2 {
-        margin-top: 25px;
-        font-size: 1.5em;
+        font-size: 11.5em;
     }
     /* MAIN */
-    main {
-        width: 100%;
-    }
     #main_div {
         width: 70%;
-        background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 10%;
-        font-size: 1.5em;
-    }
-    main div section {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    main div section h2 {
-        padding: 5px;
-        font-size: 1.5em;
-    }
-    main div section h3 {
-        padding: 0px;
-        font-size: 1.2em;
+        border-radius: 20%;
+        font-size: 2em;
     }
     /* FOOTER */
     footer {
         font-size: 1em;
-    }
-    footer address {
-        margin-top: 20px;
     }
 }
 /* Desktops, large screens – 1024px — 1200px (tela larga) - DIMENSIONS: IPAD AIR 1180-820 */
@@ -242,49 +146,25 @@ att: 09/08/2023
     * {
         letter-spacing: 3px;
     }
-    /* CABEÇALHO */
-    header {
-        color: var(--colorgreen);
-    }
-    header div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    /* CABEÇALHO */ 
     #oNando {
-        font-size: 12em;
-    }
-    header h2 {
-        margin-top: 25px;
-        font-size: 1.5em;
+        font-size: 15em;
     }
     /* MAIN */
     main {
         width: 100%;
+        font-size: 1.5em;
     }
     #main_div {
         width: 70%;
-        margin: auto;
         background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 10%;
+        border-radius: 15%;
         font-size: 1.5em;
-    }
-    main div section h2 {
-        padding: 5px;
-        font-size: 1.7em;
-    }
-    main div section h3 {
-        padding: 0px;
-        font-size: 1.4em;
     }
     /* FOOTER */
     footer {
         font-size: 1em;
         letter-spacing: 2px;
-    }
-    footer address {
-        margin-top: 20px;
     }
 }
 /* Extra large screens, TV – 1201px, and more (tela grande) - DIMENSIONS: NEST HUB MAX 1280-800 */
@@ -292,46 +172,23 @@ att: 09/08/2023
     * {
         letter-spacing: 5px;
     }
-    /* CABEÇALHO */
-    header {
-        color: var(--colorgreen);
-    }
-    header div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    /* CABEÇALHO */ 
     #oNando {
-        font-size: 15em;
-    }
-    header h2 {
-        font-size: 1.5em;
+        font-size: 16em;
     }
     /* MAIN */
     main {
         width: 100%;
+        font-size: 1.5em;
     }
     #main_div {
         width: 70%;
-        margin: auto;
         background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 10%;
+        border-radius: 15%;
         font-size: 1.5em;
-    }
-    main div section h2 {
-        font-size: 1.7em;
-    }
-    main div section h3 {
-        padding: 0px;
-        font-size: 1.4em;
     }
     /* FOOTER */
     footer {
-        font-size: .8em;
-        letter-spacing: 2px;
-    }
-    footer address {
-        margin-top: 20px;
+        font-size: 1em;
     }
 }
