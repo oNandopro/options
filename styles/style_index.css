@@ -35,7 +35,6 @@ body {
     justify-content: space-between;
 
     width: 100vw;
-    max-height: 100vh;
     margin: 0px;
    
     background-image: url(/assets/imagens/index_imagens/clean.png);
@@ -51,7 +50,6 @@ header {
     align-items: center;
 
     width: 1202;
-    height: 30vh;
     padding: 20px;
 
     color: var(--colorgreen);
@@ -69,7 +67,6 @@ main {
     justify-content: center;
 
     width: 1202px;
-    height: 60vh;
 }
 #main_div {
     display: flex;
@@ -294,8 +291,6 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    height: 10vh;
 
     color: var(--colorgreen);
 }
