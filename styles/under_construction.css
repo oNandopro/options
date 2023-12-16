@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+* {
+    font-family: "AudioWide", cursive;
+    color: rgb(70, 252, 10);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word; /* PARA QUEBRAR A PALAVRA DO TEXTO PARA MANTER NO ESPAÇO DO ELEMENTO */
+}
+body {
+    width: 100wh;
+    height: 100vh;
+    margin: 0px;
+
+    background-image: url(/assets/imagens/index_imagens/pai2.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+/* CABEÇALHO */
+.header{
+    text-align: center;
+    margin-top: 60px;
+}
+.h1_header{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 5em;
+    color: #3c2fee ;
+}
+.a_header{
+    font-size: 2em;
+    color: #f59fe9 ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.a_header:hover{
+    color: #d816be;
+}
+/* MAIN ANIMA */
+.anima {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.column-1 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-2 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-3 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-4 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-5 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-6 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-7 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-8 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-9 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.9s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-10 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-11 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-12 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.9s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-13 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-14 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-15 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-16 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-17 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-18 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-19 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+.column-20 {
+    width: 30px;
+    animation-name: column;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+}
+@keyframes column {
+    0% {height: 20%; background-color: #4e0380a6}
+    5% {height: 24%; background-color: #4e038000}
+    10% {height: 30%; background-color: #4e038023}
+    15% {height: 36%; background-color: #4e038000}
+    20% {height: 40%; background-color: #50037d5d}
+    25% {height: 43%; background-color: #540379a2}
+    30% {height: 49%; background-color: #037147}
+    35% {height: 53%; background-color: #600361}
+    40% {height: 58%; background-color: #690352}
+    45% {height: 62%; background-color: #036572}
+    50% {height: 69%; background-color: #7B0333}
+    55% {height: 75%; background-color: #840323}
+    60% {height: 80%; background-color: #031995}
+    65% {height: 73%; background-color: #3881e0}
+    70% {height: 63%; background-color: #7B0333}
+    75% {height: 54%; background-color: #03721ba1}
+    80% {height: 43%; background-color: #69035142}
+    85% {height: 35%; background-color: #614b0300}
+    90% {height: 27%; background-color: #03711b}
+    95% {height: 22%; background-color: #795a0386}
+    100% {height: 10%; background-color: #1b7d03}
+}
+/* FOOTER */
+.footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+footer .a_onando{
+    text-decoration: none;
+    color: white;
+}
+footer .a_onando:hover{
+    color: #d816be ;
+}
