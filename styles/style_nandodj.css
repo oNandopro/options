@@ -6,19 +6,26 @@
     src: url(/assets/fonts/age.ttf) format(opentype);
 }  
 * {
-    font-family: "AudioWide", cursive;
     margin: 0px;
     padding: 0px;
+
+    font-family: "AudioWide", cursive;
     box-sizing: border-box;
     letter-spacing: 5px;
     word-spacing: 0px;
     word-wrap: break-word;
-    box-sizing: border-box;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
     width: 100wh;
     height: 100vh;
     margin: 0px;
+
+    font-size: 14px;
     color: rgb(252, 26, 10);
     background-image: url(/assets/imagens/index_imagens/pai9.png);
     background-repeat: repeat;
@@ -86,41 +93,48 @@ body {
 }
 /* CABEÇALHO*/
 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     background-image: url(/assets/imagens/nando_dj_imagens/kodama_corte.png);
-    height: 30%;
+    height: auto;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     color: rgb(70, 252, 10);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    
 }
 .container_bem_vindo {
-    width: fit-content;
-    height: 100%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: start;
+
+    width: fit-content;
+    height: 100%;
+    padding: 20px;
 }
 .p_header{
     width: fit-content;
     height: fit-content; 
 }
 .container_logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
     width: fit-content;
     height: 100%;
     margin-right: 2%;
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
-    justify-content: end;
-    align-items: center;
 }
 .div_logos {  
     display: flex;
+
+    margin-top: 15px;
     width: fit-content;
     height: 100%;
     align-items: center;
@@ -138,39 +152,62 @@ header{
 }
 /* APRESENTAÇÃO*/
 .sec_nando{
-    margin-top: 0px;
-    margin: auto;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10px;
+    width: 100%;
+    height: 1000px;
     text-align: center;
     font-size: 1.5em;
 }
 h1 {
-    margin-top: 10%;
+    margin-top: 180px;
     font-family: 'glith';
-    font-size: 9em;
+    font-size: 15em;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(231, 238, 228, 0.932);
+}
+main {
+    margin-top: 10px;
 }
 main div p{
     margin-top: 150px;
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
 }
 /* MENU COM JAVASCRIPT */
+section nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
 span{
-    font-size: 2em;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    font-size: 3em;  
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
-    background-color: rgba(142, 231, 17, 0.116);
+    
 }
 #burguer {
-    margin-top: 30px;
+    margin-top: 50px;
     display: block;
     text-align: center;
     padding: 8px;
     cursor: pointer;
+    width: 100%;
 
 }
 #burguer:hover {
-    font-size: 2.2em;
+    font-size: 3em;
     background-color: var(--bgfundo);
     color: white;
 }
@@ -184,6 +221,7 @@ menu {
 }
 menu > ul {
     list-style-type: none;
+    font-size: 1.5em;
 }
 
 menu > ul > li > a {
@@ -198,7 +236,6 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: rgba(252, 26, 10, 0.445);
     color: white;
-    font-size: 1.2em;
     text-shadow: 2px 2px 2px rgba(56, 148, 17, 0.932);
 }
 /* FOTO APRESENTAÇÃO */
