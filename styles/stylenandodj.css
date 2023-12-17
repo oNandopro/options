@@ -27,7 +27,7 @@ body {
 
     font-size: 14px;
     color: rgb(252, 26, 10);
-    background-image: url(/assets/imagens/index_imagens/pai9.png);
+    background-image: url(/assets/imagens/indeximagens/pai9.png);
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -97,7 +97,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
 
-    background-image: url(/assets/imagens/nando_dj_imagens/kodama_corte.png);
+    background-image: url(/assets/imagens/djimagens/kodama_corte.png);
     height: auto;
     width: 100%;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@ menu > ul > li > a:hover {
     height: 550px;
  }
  .foto_apresentacao {
-     background-image: url(/assets/imagens/nando_dj_imagens/tribe_space_dark_psicodelico.jpg);
+     background-image: url(/assets/imagens/djimagens/tribe_space_dark_psicodelico.jpg);
      background-size: cover;
      background-position: center;
      background-attachment: scroll;
@@ -264,7 +264,7 @@ menu > ul > li > a:hover {
  }
 /* LOOPING IMAGEM */
 .imagem_looping{
-    background-image: url(/assets/imagens/nando_dj_imagens/looping_2.jpg);
+    background-image: url(/assets/imagens/djimagens/looping_2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -299,7 +299,7 @@ menu > ul > li > a:hover {
 }
 /* ORIGENS IMAGEM*/
 .imagem_origens{
-    background-image: url(/assets/imagens/nando_dj_imagens/origens_edit.png);
+    background-image: url(/assets/imagens/djimagens/origens_edit.png);
     background-position: center;
     margin-top: 150px;
     background-size: cover;
@@ -368,7 +368,7 @@ menu > ul > li > a:hover {
 }
 /* KODAMA IMAGEM */
 .imagem_kodama{
-    background-image: url(/assets/imagens/nando_dj_imagens/kodama_23_palco_zoom.jpg);
+    background-image: url(/assets/imagens/djimagens/kodama_23_palco_zoom.jpg);
     background-position: center;
     margin-top: 150px;
     background-size: cover;
@@ -401,7 +401,7 @@ menu > ul > li > a:hover {
 }
 /* IMAGEM SID*/
 .imagem_sid{
-    background-image: url(/assets/imagens/nando_dj_imagens/sid_1.jpg);
+    background-image: url(/assets/imagens/djimagens/sid_1.jpg);
     background-position: center;
     margin-top: 150px;
     background-size: cover;
