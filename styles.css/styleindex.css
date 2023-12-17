@@ -1,11 +1,12 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @font-face {
     font-family: 'audiowide';
-    src: url(/assets/fonts/audiowide.ttf) format(opentype);
+    src: url(../assets/fonts/audiowide.ttf) format(opentype);
 }
 @font-face {
     font-family: 'spaceage' ;
-    src: url(/assets/fonts/age.ttf) format(opentype);
+    src: url(../assets/fonts/age.ttf) format(opentype);
 }
 
 :root {
