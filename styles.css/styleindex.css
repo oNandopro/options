@@ -380,15 +380,6 @@ footer .a_onando:hover{
     body {
         overflow: hidden;
     }
-    header {
-        height: 30vh;
-    }
-    main {
-        height: 57vh;
-    }
-    footer {
-        height: 10vh;
-    }
     #oNando {
         font-size: 4em;
     }
@@ -422,15 +413,6 @@ footer .a_onando:hover{
     }
     body {
         overflow: hidden;
-    }
-    header {
-        height: 30vh;
-    }
-    main {
-        height: 57vh;
-    }
-    footer {
-        height: 10vh;
     }
     /* CABEÇALHO */
     header {
@@ -472,15 +454,6 @@ footer .a_onando:hover{
     }
     body {
         overflow: hidden;
-    }
-    header {
-        height: 30vh;
-    }
-    main {
-        height: 57vh;
-    }
-    footer {
-        height: 10vh;
     }
     /* CABEÇALHO */
     #oNando {
