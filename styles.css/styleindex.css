@@ -374,6 +374,19 @@ footer .a_onando:hover{
         letter-spacing: 3px;
     }
     /* CABEÇALHO */
+    body {
+        min-height: 97vh;
+
+    }
+    header {
+        height: 30vh;
+    }
+    main {
+        height: 57vh;
+    }
+    footer {
+        height: 10vh;
+    }
     #oNando {
         font-size: 4em;
     }
@@ -401,6 +414,19 @@ footer .a_onando:hover{
 @media screen and (min-width: 320px) and (max-width: 480px) {
     * {
         letter-spacing: 3px;
+    }
+    body {
+        min-height: 97vh;
+
+    }
+    header {
+        height: 30vh;
+    }
+    main {
+        height: 57vh;
+    }
+    footer {
+        height: 10vh;
     }
     /* CABEÇALHO */
     header {
@@ -436,6 +462,19 @@ footer .a_onando:hover{
 @media screen and (min-width: 480px) and (max-width: 765px) { 
     * {
         letter-spacing: 3px;
+    }
+    body {
+        min-height: 97vh;
+
+    }
+    header {
+        height: 30vh;
+    }
+    main {
+        height: 57vh;
+    }
+    footer {
+        height: 10vh;
     }
     /* CABEÇALHO */
     #oNando {
