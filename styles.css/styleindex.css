@@ -1,15 +1,12 @@
 @charset "UTF-8";
-/*@font-face {
+@font-face {
     font-family: 'audiowide';
     src: url(/assets/fonts/audiowide.ttf) format(opentype);
 }
 @font-face {
-    font-family: 'glith' ;
-    src: url(/assets/fonts/age.ttf) format(opentype);
-}*/
-
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
+    font-family: 'spaceage' ;
+    src: url(/age.ttf) format(opentype);
+}
 
 :root {
     --colorpinkpadrao: #d816be;
@@ -72,7 +69,7 @@ header div {
     overflow: hidden;
 }
 #oNando {
-    font-family: 'glith';
+    font-family: 'spaceage';
     font-size: 14em;
     text-shadow: 2px 2px 5px rgba(245, 240, 240, 0.979);
 }
