@@ -376,7 +376,7 @@ footer .a_onando:hover{
     /* CABEÇALHO */
     body {
         min-height: 97vh;
-
+        overflow: hidden;
     }
     header {
         height: 30vh;
@@ -417,7 +417,7 @@ footer .a_onando:hover{
     }
     body {
         min-height: 97vh;
-
+        overflow: hidden;
     }
     header {
         height: 30vh;
@@ -465,7 +465,7 @@ footer .a_onando:hover{
     }
     body {
         min-height: 97vh;
-
+        overflow: hidden;
     }
     header {
         height: 30vh;
