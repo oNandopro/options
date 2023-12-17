@@ -374,8 +374,10 @@ footer .a_onando:hover{
         letter-spacing: 3px;
     }
     /* CABEÇALHO */
+    body, html {
+        height: 100%;
+    }
     body {
-        min-height: 97vh;
         overflow: hidden;
     }
     header {
@@ -415,8 +417,10 @@ footer .a_onando:hover{
     * {
         letter-spacing: 3px;
     }
+    body, html {
+        height: 100%;
+    }
     body {
-        min-height: 97vh;
         overflow: hidden;
     }
     header {
@@ -463,8 +467,10 @@ footer .a_onando:hover{
     * {
         letter-spacing: 3px;
     }
+    body, html {
+        height: 100%;
+    }
     body {
-        min-height: 97vh;
         overflow: hidden;
     }
     header {
