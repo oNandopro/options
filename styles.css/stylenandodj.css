@@ -150,7 +150,7 @@ header{
     width: 60px;
     border: 15px solid rgba(252, 26, 10, 0.507);
 }
-/* APRESENTAÇÃO*/
+/* APRESENTAÇÃO + MENU BURGER JS*/
 .sec_nando{
     display: flex;
     flex-direction: column;
@@ -170,14 +170,6 @@ h1 {
     text-align: center;
     text-shadow: 2px 2px 5px rgba(231, 238, 228, 0.932);
 }
-main {
-    margin-top: 10px;
-}
-main div p{
-    margin-top: 150px;
-    text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
-}
-/* MENU COM JAVASCRIPT */
 section nav {
     display: flex;
     flex-direction: column;
@@ -211,7 +203,6 @@ span{
     background-color: var(--bgfundo);
     color: white;
 }
-
 menu {
     display: none;
 }
@@ -223,7 +214,6 @@ menu > ul {
     list-style-type: none;
     font-size: 1.5em;
 }
-
 menu > ul > li > a {
     display: block;
     padding: 15px;
@@ -232,11 +222,17 @@ menu > ul > li > a {
     background-color: rgba(29, 7, 7, 0.151);
     border-top: 2px solid var(--bgfundo);
 }
-
 menu > ul > li > a:hover {
     background-color: rgba(252, 26, 10, 0.445);
     color: white;
     text-shadow: 2px 2px 2px rgba(56, 148, 17, 0.932);
+}
+main {
+    margin-top: 10px;
+}
+main div p{
+    margin-top: 150px;
+    text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
 }
 /* FOTO APRESENTAÇÃO */
 .container_foto {
