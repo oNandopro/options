@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
 @font-face {
     font-family: 'spaceage' ;
-    src: url(/age.ttf) format(opentype);
+    src: url(/assets/fonts/age.ttf) format(opentype);
 }  
 * {
     margin: 0px;
@@ -32,7 +32,7 @@ body {
     background-size: 100%;
     background-attachment: fixed;
 }
-/* FOR STANDARD SETTINGS ONT THE HEAD/PARA CONFIGURAÇÕES PADRÃO NO CORPO */
+/* CONFIGURAÇÕES PADRÃO */
 .p_center{ 
     text-align: center;
 }
