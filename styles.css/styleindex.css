@@ -374,14 +374,14 @@ footer .a_onando:hover{
         letter-spacing: 3px;
     }
     /* CABEÇALHO */
-    body, html {
-        height: 100%;
-    }
-    body {
-        overflow: hidden;
-    }
     #oNando {
-        font-size: 4em;
+        margin-top: 50px;
+        font-size: 4.5em;
+        letter-spacing: 0px;
+    }
+    header div h2 {
+        margin-top: 20px;
+        font-size: 1em;
     }
     /* MAIN */
     main {
@@ -390,7 +390,7 @@ footer .a_onando:hover{
     #main_div {
         padding: 30px;
         width: 250px;
-        font-size: 1em; 
+        font-size: 1.4em; 
         background-color: rgba(1, 10, 17, 0.137);
         border-radius: 120%;
     }
@@ -399,8 +399,8 @@ footer .a_onando:hover{
     }
     /* FOOTER */
     footer {
+        margin-bottom: 20px;
         font-size: .9em;
-        letter-spacing: 0px;
     }
 }
 /* Mobile devices – 320px — 480px (dispositivos móveis) - DIMENSIONS: IPHONE 12 390-844 */
@@ -408,23 +408,19 @@ footer .a_onando:hover{
     * {
         letter-spacing: 3px;
     }
-    body, html {
-        height: 100%;
-    }
-    body {
-        overflow: hidden;
-    }
     /* CABEÇALHO */
     header {
         color: var(--colorgreen);
         font-size: 1em;
     }
     #oNando {
-        font-size: 5em;
+        margin-top: 50px;
+        font-size: 5.2em;
+        letter-spacing: 0px;
     }
     header div h2 {
         margin-top: 20px;
-        font-size: .9em;
+        font-size: 1em;
     }
     /* MAIN */
     main {
@@ -433,14 +429,16 @@ footer .a_onando:hover{
     }
     #main_div {
         width: 90%;
+        margin-top: 40pxpx;
         border-radius: 120%;
-        font-size: 1em;
+        font-size: 1.3em;
     }
     .anima {
         display: none;
     }
     /* FOOTER */
     footer {
+        margin-bottom: 20px;
         font-size: .8em;
     }
 }
@@ -449,14 +447,9 @@ footer .a_onando:hover{
     * {
         letter-spacing: 3px;
     }
-    body, html {
-        height: 100%;
-    }
-    body {
-        overflow: hidden;
-    }
     /* CABEÇALHO */
     #oNando {
+        margin-top: 50px;
         font-size: 7em;
     }
     /* MAIN */
@@ -465,6 +458,7 @@ footer .a_onando:hover{
         line-height: 50px;
     }
     #main_div {
+        margin-top: 40px;
         width: 70%;
         border-radius: 10%;
         font-size: 2em;
