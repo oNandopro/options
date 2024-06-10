@@ -97,11 +97,11 @@ main {
     height: auto; 
     
     color: var(--colorblue);
-    text-shadow: 1px 1px 0px rgba(143, 231, 105, 0);
+    text-shadow: 1px 1px 0px rgba(143, 231, 105, 0.226);
     font-size: 2em;
 
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(0, 0, 0, 0.815);
     box-shadow: 2px 2px 2px var(--boxshadow);    
 }
 .anima {
@@ -302,10 +302,13 @@ main {
     align-items: center;
     height: 1px;
     width: 150px;
-    margin-top: 10px;
+    margin-top: 1px;
     margin-bottom: 10px;
-    background-color: #69035180;
+    
 
+}
+section {
+    padding: 20px;
 }
 main div section {
     display: flex;
