@@ -69,7 +69,7 @@ header {
     text-shadow: 2px 2px 5px rgba(245, 240, 240, 0.979);
 }
 header h1  {
-    font-size: 200px;
+    font-size: 180px;
 }
 header h2{
     font-size: 22px;
@@ -362,11 +362,38 @@ footer a {
 
 /* Media queries */
 @media (max-width: 768px) {
-  /* Estilos para telas pequenas */
+    header h1  {
+        font-size: 50px;
+    }
+    header h2{
+        font-size: 11px;
+    }
+    .anima {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        align-items: flex-end;
+    
+        margin-top: 40px;
+        margin-bottom: 50px;
+    
+        width: auto;
+        height: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  /* Estilos para tablets */
+    header h1  {
+        font-size: 120px;
+    }
+    header h2{
+        font-size: 17px;
+    }
 }
 
 @media (min-width: 1025px) {
