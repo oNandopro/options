@@ -7,7 +7,6 @@
     font-family: 'spaceage' ;
     src: url(../assets/fonts/age.ttf) format(opentype);
 }
-
 :root {
     --colorpinkpadrao: #d816be;
     --colorpinkhover:  #d816be75;
@@ -16,17 +15,19 @@
     --bgfundo: rgba(29, 7, 7, 0.767);
     --boxshadow: rgba(235, 50, 210, 0.164);
 }
+
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
     font-family: "AudioWide", cursive;
     box-sizing: border-box;
     letter-spacing: 5px;
     word-spacing: 0px;
     word-wrap: break-word; 
-    
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -44,8 +45,10 @@ body {
     background-size: 100%;
     background-attachment: scroll;
     overflow-y: scroll;
+
 }
-/* CABEÇALHO */
+
+/* Header */
 header {
     display: flex;
     flex-direction: column;
@@ -61,47 +64,15 @@ header {
 
     color: var(--colorgreen);
 }
-header div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
 #oNando {
     font-family: 'spaceage';
     text-shadow: 2px 2px 5px rgba(245, 240, 240, 0.979);
 }
-/* MAIN */
-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-
-    width: 90vw;
-    height: auto;
-    margin: 10px;
+header h1  {
+    font-size: 200px;
 }
-#main_div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    margin: auto;
-    padding: 20px;
-    width: 70vw;
-    height: auto; 
-    
-    color: var(--colorblue);
-    text-shadow: 1px 1px 0px rgba(143, 231, 105, 0.226);
-    font-size: 2em;
-
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.815);
-    box-shadow: 2px 2px 2px var(--boxshadow);    
+header h2{
+    font-size: 22px;
 }
 .anima {
     display: flex;
@@ -295,22 +266,56 @@ nav {
     80% {height: 100%; background-color: #69035142}
     85% {height: 100%; background-color: #614b0300}
 }
-.bar {
+
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    padding: 20px;
+    width: 70vw;
+    height: auto; 
+    
+    color: var(--colorblue);
+    text-shadow: 1px 1px 0px rgba(143, 231, 105, 0.226);
+    font-size: 2em;
+
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.815);
+    box-shadow: 2px 2px 2px var(--boxshadow); 
+}
+/* Navegação */
+nav {
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1px;
-    width: 150px;
-    margin-top: 1px;
-    margin-bottom: 10px;
-    
-
+    overflow: hidden;
+    margin: 5px;
+    width: 90%;
+    height: auto;
 }
-section {
+
+nav ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5px;
+    width: 80%;
+    height: auto;
     padding: 20px;
 }
-main div section {
+
+nav li {
     display: flex;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -318,17 +323,19 @@ main div section {
     width: 80%;
     min-height: 50px;
     max-height: 150px;
+    font-size: 45px;
 }
-.ancora {
+
+nav a {
     text-decoration: none;
     color: var(--colorblue);
     text-shadow: 2px 2px 5px rgba(245, 240, 240, 0.199);
 }
-.ancora:hover {
+nav a:hover {
     color: white;
 }
-/* FOOTER */
-footer{
+
+footer {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -337,211 +344,31 @@ footer{
 
     margin-top: 10px;
     color: var(--colorgreen);
+
 }
+
 footer address {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin-top: 50px;
 }
-footer .a_onando{
+
+footer a {
     padding: 20px;
     text-decoration: none;
     color: var(--colorpinkpadrao);
 }
-footer .a_onando:hover{
-    color: white;
+
+/* Media queries */
+@media (max-width: 768px) {
+  /* Estilos para telas pequenas */
 }
 
-/*Impressora*/
-@media print { 
-    * {
-        font-family: 'Courier New', Courier, monospace;
-        color: black;
-    }
-    main {
-        border: 2px solid black;
-    }
-    main::after {
-        text-align: center;
-        padding-left: 20px;
-        font-size: 0.8em;
-        content: 'Jesus te Ama';
-        text-decoration: overline;
-    }
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para tablets */
 }
-/* Mobile devices max 320px (dispositivos móveis) - DIMENSIONS: GALAXY FOLD 280-663 */
-@media screen and (max-width: 320px) {
-    * {
-        letter-spacing: 3px;
-    }
-    /* CABEÇALHO */
-    #oNando {
-        margin-top: 50px;
-        font-size: 4.5em;
-        letter-spacing: 0px;
-    }
-    header div h2 {
-        margin-top: 20px;
-        font-size: 1em;
-    }
-    /* MAIN */
-    main {
-        width: 250px;
-    }
-    #main_div {
-        padding: 30px;
-        width: 250px;
-        font-size: 1.4em; 
-        background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 120%;
-    }
-    .anima {
-        display: none;
-    }
-    /* FOOTER */
-    footer {
-        margin-bottom: 20px;
-        font-size: .9em;
-    }
-}
-/* Mobile devices – 320px — 480px (dispositivos móveis) - DIMENSIONS: IPHONE 12 390-844 */
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    * {
-        letter-spacing: 3px;
-    }
-    /* CABEÇALHO */
-    header {
-        color: var(--colorgreen);
-        font-size: 1em;
-    }
-    #oNando {
-        margin-top: 50px;
-        font-size: 5.2em;
-        letter-spacing: 0px;
-    }
-    header div h2 {
-        margin-top: 20px;
-        font-size: 1em;
-    }
-    /* MAIN */
-    main {
-        width: 90vw;
-        font-size: 1.3em;
-    }
-    #main_div {
-        width: 90%;
-        margin-top: 40pxpx;
-        border-radius: 120%;
-        font-size: 1.3em;
-    }
-    .anima {
-        display: none;
-    }
-    /* FOOTER */
-    footer {
-        margin-bottom: 20px;
-        font-size: .8em;
-    }
-}
-/* iPads, Tablets – 480px — 765px (tablets) - DIMENSIONS: SURFACE DUO 540-720*/
-@media screen and (min-width: 480px) and (max-width: 765px) { 
-    * {
-        letter-spacing: 3px;
-    }
-    /* CABEÇALHO */
-    #oNando {
-        margin-top: 50px;
-        font-size: 7em;
-    }
-    /* MAIN */
-    main {
-        width: 100%;
-        line-height: 50px;
-    }
-    #main_div {
-        margin-top: 40px;
-        width: 70%;
-        border-radius: 10%;
-        font-size: 2em;
-    }
-    .anima {
-        display: none;
-    }
-    /* FOOTER */
-    footer {
-        font-size: .8em;
-        letter-spacing: 3px;
-    }
-} 
-/* Small screens, laptops – 765px — 1024px (tela pequena) - DIMENSIONS: IPAD MINI 768-1024*/
-@media screen and (min-width: 765px) and (max-width: 1024px) { 
-    * {
-        letter-spacing: 3px;
-    }
-    /* CABEÇALHO */
-    #oNando {
-        font-size: 11.5em;
-    }
-    /* MAIN */
-    #main_div {
-        width: 70%;
-        border-radius: 20%;
-        font-size: 2em;
-    }
-    /* FOOTER */
-    footer {
-        font-size: 1em;
-    }
-}
-/* Desktops, large screens – 1024px — 1200px (tela larga) - DIMENSIONS: IPAD AIR 1180-820 */
-@media screen and (min-width: 1024px) and (max-width: 1200px) { 
-    * {
-        letter-spacing: 3px;
-    }
-    /* CABEÇALHO */ 
-    #oNando {
-        font-size: 15em;
-    }
-    /* MAIN */
-    main {
-        width: 100%;
-        font-size: 1.5em;
-    }
-    #main_div {
-        width: 70%;
-        background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 15%;
-        font-size: 1.5em;
-    }
-    /* FOOTER */
-    footer {
-        font-size: 1em;
-        letter-spacing: 2px;
-    }
-}
-/* Extra large screens, TV – 1201px, and more (tela grande) - DIMENSIONS: NEST HUB MAX 1280-800 */
-@media screen and (min-width: 1200px)  { 
-    * {
-        letter-spacing: 5px;
-    }
-    /* CABEÇALHO */ 
-    #oNando {
-        font-size: 16em;
-    }
-    /* MAIN */
-    main {
-        width: 100%;
-        font-size: 1.5em;
-    }
-    #main_div {
-        width: 70%;
-        background-color: rgba(1, 10, 17, 0.137);
-        border-radius: 15%;
-        font-size: 1.5em;
-    }
-    /* FOOTER */
-    footer {
-        font-size: 1em;
-    }
+
+@media (min-width: 1025px) {
+  /* Estilos para telas grandes */
 }
