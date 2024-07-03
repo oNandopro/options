@@ -388,6 +388,7 @@ footer a {
         flex: 1;
     
         margin-top: 10px;
+        margin-bottom: 5px;
         color: var(--colorgreen);
         font-size: 12px;
     }
