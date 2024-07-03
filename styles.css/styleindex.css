@@ -276,7 +276,6 @@ main {
     align-items: center;
 
     margin: auto;
-    padding: 20px;
     width: 70vw;
     height: auto; 
     
@@ -290,7 +289,7 @@ main {
 }
 /* Navegação */
 nav {
-   
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,14 +300,14 @@ nav {
 }
 
 nav ul {
-
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     margin: 5px;
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 20px;
 }
@@ -343,6 +342,7 @@ footer {
     flex: 1;
 
     margin-top: 10px;
+    padding-bottom: 20px;
     color: var(--colorgreen);
 
 }
@@ -355,7 +355,6 @@ footer address {
 }
 
 footer a {
-    padding: 20px;
     text-decoration: none;
     color: var(--colorpinkpadrao);
 }
@@ -373,12 +372,34 @@ footer a {
     }
     nav li {
         display: flex;
-        padding: 15px;
         justify-content: center;
         align-items: center;
         overflow: hidden;
         width: 100%;
-        font-size: 20px;
+        font-size: 22px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        flex: 1;
+    
+        margin-top: 10px;
+        color: var(--colorgreen);
+        font-size: 12px;
+    }
+    
+    footer address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: var(--colorpinkpadrao);
     }
 }
 
@@ -388,6 +409,38 @@ footer a {
     }
     header h2{
         font-size: 17px;
+    }
+    nav li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 100%;
+        font-size: 32px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        flex: 1;
+    
+        margin-top: 10px;
+        padding-bottom: 20px;
+        color: var(--colorgreen);
+        font-size: 12px;
+    }
+    
+    footer address {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: var(--colorpinkpadrao);
     }
 }
 
