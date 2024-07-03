@@ -276,7 +276,7 @@ main {
     align-items: center;
 
     margin: auto;
-    width: 70vw;
+    width: 85%;
     height: auto; 
     
     color: var(--colorblue);
@@ -294,8 +294,7 @@ nav {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin: 5px;
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -319,7 +318,7 @@ nav li {
     align-items: center;
     overflow: hidden;
     margin: 5px;
-    width: 80%;
+    width: auto;
     min-height: 50px;
     max-height: 150px;
     font-size: 45px;
