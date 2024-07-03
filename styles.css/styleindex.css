@@ -443,7 +443,3 @@ footer a {
         color: var(--colorpinkpadrao);
     }
 }
-
-@media (min-width: 1025px) {
-  /* Estilos para telas grandes */
-}
