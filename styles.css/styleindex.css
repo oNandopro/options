@@ -341,7 +341,7 @@ footer {
     flex: 1;
 
     margin-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     color: var(--colorgreen);
 
 }
@@ -391,7 +391,6 @@ footer a {
         flex: 1;
     
         margin-top: 10px;
-        margin-bottom: 5px;
         color: var(--colorgreen);
         font-size: 12px;
     }
@@ -432,7 +431,6 @@ footer a {
         flex: 1;
     
         margin-top: 10px;
-        padding-bottom: 20px;
         color: var(--colorgreen);
         font-size: 12px;
     }
